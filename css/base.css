@@ -1,0 +1,49 @@
+/* 公共类 */
+@font-face{
+    font-family: "PingFangSCRegular";
+    src:url('../font/PingFangSCRegular.ttf')format('truetype')
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    font-family: "PinhFangSCRegular";
+}
+.clearfix{
+    overflow: hidden;
+}
+.clearfix::after{
+    /* 使用content插入的内容都是匿名可替换元素 */
+    content: '';   
+    display: block;
+    clear:both;
+    overflow: hidden;
+}
+.center-warp{
+    width:1152px;
+    margin:0 auto;
+}
+.tac{
+    text-align: center;
+}
+
+.db{
+    display:block;
+}
+.dib{
+    display: inline-block;
+}
+
